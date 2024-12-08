@@ -384,7 +384,6 @@ section,
 
 .featured-articles {
   background-color: var(--clr-primary-200);
-  padding: 2em 0; /* Adjust padding as needed */
 }
 
 .articles__list {
@@ -415,14 +414,6 @@ section,
     "meta"
     "body"
     "button";
-  border-radius: 8px; /* Rounded corners */
-  overflow: hidden; /* Ensure child elements respect border radius */
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-  transition: transform 0.3s; /* Smooth hover effect */
-}
-
-.snippet:hover {
-  transform: scale(1.05); /* Slightly enlarge on hover */
 }
 
 .snippet__image {
@@ -866,12 +857,6 @@ img.logo::after {
     bottom: 1em;
     right: 1em;
   }
-}
-
-.articles__grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Responsive grid */
-  gap: 2em; /* Space between articles */
 }
 
 
